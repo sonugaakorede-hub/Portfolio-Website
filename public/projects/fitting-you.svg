@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 3600" width="1200" height="3600">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+    <filter id="shadowFY" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="3600" fill="#FAF7F2"/>
+
+  <!-- NAVBAR -->
+  <g transform="translate(80, 40)">
+    <g>
+      <text x="0" y="24" class="serif" font-size="20" font-weight="700" fill="#242120" letter-spacing="1">FITTING YOU</text>
+    </g>
+    <g class="sans" font-size="13" font-weight="600" fill="#5C5552">
+      <text x="460" y="24">HOME</text>
+      <text x="540" y="24">ABOUT</text>
+      <text x="620" y="24">SERVICES</text>
+      <text x="720" y="24">RESULTS</text>
+      <text x="810" y="24">CONTACT</text>
+    </g>
+    <rect x="910" y="2" width="140" height="36" rx="8" fill="#B08968"/>
+    <text x="980" y="24" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">WORK WITH ME</text>
+  </g>
+
+  <!-- HERO SECTION -->
+  <g transform="translate(80, 140)">
+    <text x="0" y="20" class="sans" font-size="12" font-weight="800" fill="#B08968" letter-spacing="2">STRONGER YOU, BETTER LIFE</text>
+    <text x="0" y="70" class="serif" font-size="46" font-weight="700" fill="#242120">Bespoke Personal</text>
+    <text x="0" y="125" class="serif" font-size="46" font-weight="700" fill="#242120">Training and Online</text>
+    <text x="0" y="180" class="serif" font-size="46" font-weight="700" fill="#242120">Coaching</text>
+    
+    <text x="0" y="230" class="sans" font-size="14" fill="#6E6662">
+      <tspan x="0" dy="0">Personalised training plans and expert coaching designed to help you</tspan>
+      <tspan x="0" dy="22">build strength, confidence and a sustainable healthy lifestyle.</tspan>
+    </text>
+
+    <rect x="0" y="290" width="180" height="44" rx="8" fill="#B08968"/>
+    <text x="90" y="317" class="sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">LET'S WORK TOGETHER</text>
+
+    <!-- Right Hero Photo Box -->
+    <g transform="translate(560, -20)">
+      <rect width="480" height="420" rx="16" fill="#E8DFD8"/>
+      <circle cx="240" cy="210" r="100" fill="#B08968" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- ABOUT SECTION -->
+  <g transform="translate(80, 680)">
+    <!-- Left Photo Box -->
+    <rect width="400" height="440" rx="16" fill="#E8DFD8"/>
+    <circle cx="200" cy="220" r="90" fill="#B08968" opacity="0.25"/>
+
+    <g transform="translate(460, 40)">
+      <text x="0" y="20" class="sans" font-size="11" font-weight="800" fill="#B08968" letter-spacing="2">ABOUT ME</text>
+      <text x="0" y="65" class="serif" font-size="38" font-weight="700" fill="#242120">More Than Just a Workout. ♡</text>
+      
+      <text x="0" y="115" class="sans" font-size="14" fill="#6E6662">
+        <tspan x="0" dy="0">I'm here to help you become the strongest, healthiest version</tspan>
+        <tspan x="0" dy="24">of yourself - both physically and mentally. With years of</tspan>
+        <tspan x="0" dy="24">experience and a passion for real results, I create tailored</tspan>
+        <tspan x="0" dy="24">programs that fit your lifestyle and goals.</tspan>
+      </text>
+
+      <rect x="0" y="240" width="150" height="40" rx="8" fill="#B08968"/>
+      <text x="75" y="265" class="sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">FIND OUT MORE</text>
+    </g>
+  </g>
+
+  <!-- SERVICES SECTION -->
+  <g transform="translate(80, 1220)">
+    <text x="520" y="0" class="sans" font-size="11" font-weight="800" fill="#B08968" letter-spacing="2" text-anchor="middle">WHAT I OFFER</text>
+    <text x="520" y="40" class="serif" font-size="36" font-weight="700" fill="#242120" text-anchor="middle">Tailored For Every Stage</text>
+
+    <!-- 5 Service Cards -->
+    <g transform="translate(0, 80)">
+      <!-- 1 -->
+      <rect width="195" height="180" rx="12" fill="#FFFFFF" filter="url(#shadowFY)"/>
+      <text x="20" y="40" class="sans" font-size="20">🏋️</text>
+      <text x="20" y="80" class="sans" font-size="13" font-weight="800" fill="#242120">Personal Training</text>
+      <text x="20" y="110" class="sans" font-size="11" fill="#6E6662">1:1 sessions for your exact goals.</text>
+    </g>
+    <g transform="translate(210, 80)">
+      <!-- 2 -->
+      <rect width="195" height="180" rx="12" fill="#FFFFFF" filter="url(#shadowFY)"/>
+      <text x="20" y="40" class="sans" font-size="20">💻</text>
+      <text x="20" y="80" class="sans" font-size="13" font-weight="800" fill="#242120">Online Coaching</text>
+      <text x="20" y="110" class="sans" font-size="11" fill="#6E6662">Custom workouts &amp; nutrition advice.</text>
+    </g>
+    <g transform="translate(420, 80)">
+      <!-- 3 -->
+      <rect width="195" height="180" rx="12" fill="#FFFFFF" filter="url(#shadowFY)"/>
+      <text x="20" y="40" class="sans" font-size="20">🔥</text>
+      <text x="20" y="80" class="sans" font-size="13" font-weight="800" fill="#242120">Weight Loss</text>
+      <text x="20" y="110" class="sans" font-size="11" fill="#6E6662">Sustainable fat loss programs.</text>
+    </g>
+    <g transform="translate(630, 80)">
+      <!-- 4 -->
+      <rect width="195" height="180" rx="12" fill="#FFFFFF" filter="url(#shadowFY)"/>
+      <text x="20" y="40" class="sans" font-size="20">💪</text>
+      <text x="20" y="80" class="sans" font-size="13" font-weight="800" fill="#242120">Muscle Building</text>
+      <text x="20" y="110" class="sans" font-size="11" fill="#6E6662">Build lean muscle &amp; strength.</text>
+    </g>
+    <g transform="translate(840, 80)">
+      <!-- 5 -->
+      <rect width="195" height="180" rx="12" fill="#FFFFFF" filter="url(#shadowFY)"/>
+      <text x="20" y="40" class="sans" font-size="20">🤍</text>
+      <text x="20" y="80" class="sans" font-size="13" font-weight="800" fill="#242120">Lifestyle Support</text>
+      <text x="20" y="110" class="sans" font-size="11" fill="#6E6662">Mindset &amp; habit coaching.</text>
+    </g>
+
+    <rect x="445" y="290" width="150" height="38" rx="8" fill="#B08968"/>
+    <text x="520" y="314" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">VIEW ALL SERVICES</text>
+  </g>
+
+  <!-- TESTIMONIAL QUOTE -->
+  <g transform="translate(80, 1650)">
+    <rect width="1040" height="140" rx="16" fill="#F0EAE1"/>
+    <text x="520" y="60" class="serif" font-size="18" font-style="italic" fill="#242120" text-anchor="middle">
+      "Working with Fitting You has completely changed my life. I'm stronger, more confident
+    </text>
+    <text x="520" y="90" class="serif" font-size="18" font-style="italic" fill="#242120" text-anchor="middle">
+      and healthier than I've ever been. The support is unmatched!" — JESSICA M.
+    </text>
+  </g>
+
+  <!-- CLIENT RESULTS / TRANSFORMATIONS -->
+  <g transform="translate(80, 1860)">
+    <text x="520" y="0" class="sans" font-size="11" font-weight="800" fill="#B08968" letter-spacing="2" text-anchor="middle">REAL PEOPLE. REAL RESULTS.</text>
+    <text x="520" y="40" class="serif" font-size="34" font-weight="700" fill="#242120" text-anchor="middle">Client Results</text>
+
+    <!-- 4 Transformation Blocks -->
+    <g transform="translate(0, 70)">
+      <rect width="240" height="260" rx="12" fill="#E8DFD8"/>
+      <rect x="265" width="240" height="260" rx="12" fill="#E8DFD8"/>
+      <rect x="530" width="240" height="260" rx="12" fill="#E8DFD8"/>
+      <rect x="795" width="240" height="260" rx="12" fill="#E8DFD8"/>
+    </g>
+
+    <rect x="430" y="360" width="180" height="40" rx="8" fill="#B08968"/>
+    <text x="520" y="385" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">SEE MORE TRANSFORMATIONS</text>
+  </g>
+
+  <!-- FOOTER -->
+  <g transform="translate(0, 2400)">
+    <rect width="1200" height="600" fill="#F4EFEA"/>
+    <g transform="translate(80, 60)" class="sans">
+      <text x="0" y="24" class="serif" font-size="20" font-weight="700" fill="#242120">FITTING YOU</text>
+      <text x="0" y="60" font-size="12" fill="#6E6662">Empowering you to live stronger, healthier and happier.</text>
+      <text x="0" y="90" font-size="12" fill="#6E6662">📍 London, United Kingdom · 📞 +44 7700 900123</text>
+      <text x="520" y="240" font-size="12" fill="#99918D" text-anchor="middle">© 2025 Fitting You Personal Training. All Rights Reserved. Designed by Zoe Digital.</text>
+    </g>
+  </g>
+</svg>

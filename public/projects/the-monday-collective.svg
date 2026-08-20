@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 3600" width="1200" height="3600">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#736671"/>
+      <stop offset="50%" stop-color="#4F464E"/>
+      <stop offset="100%" stop-color="#2D282D"/>
+    </linearGradient>
+    <linearGradient id="serviceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D373B"/>
+      <stop offset="100%" stop-color="#242023"/>
+    </linearGradient>
+    <filter id="shadowMC" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="3600" fill="#242023"/>
+
+  <!-- HERO SECTION -->
+  <rect width="1200" height="700" fill="url(#heroGradient)"/>
+  
+  <!-- Header -->
+  <g transform="translate(70, 40)">
+    <text x="0" y="24" class="sans" font-size="16" font-weight="700" fill="#F5F3F4" letter-spacing="1">THE MONDAY COLLECTIVE</text>
+    <g class="sans" font-size="12" font-weight="600" fill="#D6D1D5">
+      <text x="500" y="24">HOME</text>
+      <text x="570" y="24">ABOUT</text>
+      <text x="645" y="24">SERVICES</text>
+      <text x="735" y="24">CONTACT</text>
+    </g>
+    <rect x="910" y="2" width="150" height="36" rx="18" fill="#8C7D8A"/>
+    <text x="985" y="24" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">BOOK A SESSION</text>
+  </g>
+
+  <!-- Hero Content -->
+  <g transform="translate(600, 160)" text-anchor="middle">
+    <rect x="-90" y="0" width="180" height="26" rx="13" fill="#8C7D8A" opacity="0.6"/>
+    <text x="0" y="17" class="sans" font-size="10" font-weight="700" fill="#F5F3F4" letter-spacing="2">THE MONDAY COLLECTIVE</text>
+    
+    <text x="0" y="80" class="serif" font-size="52" font-weight="400" fill="#FFFFFF">Your Body And Mind,</text>
+    
+    <!-- Arch Image Photo -->
+    <g transform="translate(-110, 110)">
+      <path d="M0 80 C0 35, 35 0, 110 0 C185 0, 220 35, 220 80 L220 220 L0 220 Z" fill="#E2DCDA"/>
+      <circle cx="110" cy="110" r="45" fill="#B5A4B2"/>
+    </g>
+
+    <text x="0" y="380" class="serif" font-size="46" font-weight="400" fill="#FFFFFF">Finally On The Same Team.</text>
+    
+    <rect x="-90" y="415" width="180" height="42" rx="21" fill="#FFFFFF"/>
+    <text x="0" y="441" class="sans" font-size="12" font-weight="700" fill="#242023">BOOK A CONSULTATION</text>
+  </g>
+
+  <!-- ABOUT SECTION -->
+  <g transform="translate(0, 700)">
+    <rect width="1200" height="500" fill="#F7F5F5"/>
+    <g transform="translate(100, 70)">
+      <text x="0" y="20" class="sans" font-size="11" font-weight="800" fill="#736671" letter-spacing="2">COMMITTED TO YOUR WELLBEING</text>
+      <text x="0" y="70" class="serif" font-size="42" font-weight="600" fill="#242023">About The</text>
+      <text x="0" y="115" class="serif" font-size="42" font-weight="600" fill="#242023">Monday Collective</text>
+      
+      <text x="0" y="165" class="sans" font-size="14" fill="#665D65" width="440">
+        <tspan x="0" dy="0">You don't have to navigate wellness on your own anymore.</tspan>
+        <tspan x="0" dy="24">At The Monday Collective we combine wellness advice &amp; creative</tspan>
+        <tspan x="0" dy="24">therapies to help you live a life you're proud of.</tspan>
+        <tspan x="0" dy="24">Science-backed movement. High-impact coaching.</tspan>
+      </text>
+
+      <rect x="0" y="280" width="190" height="44" rx="22" fill="#9C8D9B"/>
+      <text x="95" y="307" class="sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEARN MORE ABOUT US</text>
+
+      <!-- Right image card -->
+      <g transform="translate(540, -20)">
+        <rect width="420" height="360" rx="30" fill="#D6CEC8"/>
+        <circle cx="210" cy="180" r="90" fill="#8C7D8A" opacity="0.3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- SERVICES SECTION -->
+  <g transform="translate(0, 1200)">
+    <rect width="1200" height="750" fill="url(#serviceGradient)"/>
+    <g transform="translate(100, 60)">
+      <text x="0" y="40" class="serif" font-size="70" font-weight="300" fill="#473F45" opacity="0.5" transform="rotate(-90 0 40)">SERVICES</text>
+
+      <g transform="translate(160, 20)">
+        <text x="0" y="20" class="sans" font-size="11" font-weight="800" fill="#A89BA6" letter-spacing="2">HOW CAN WE HELP</text>
+        
+        <!-- 01 -->
+        <g transform="translate(0, 60)">
+          <text x="0" y="50" class="serif" font-size="56" fill="#756773">01</text>
+          <text x="90" y="30" class="serif" font-size="28" fill="#FFFFFF">Stress Management Coaching</text>
+          <text x="90" y="65" class="sans" font-size="13" fill="#B3A9B2">We build strength, confidence, and a deep sense of balance.</text>
+        </g>
+
+        <!-- 02 -->
+        <g transform="translate(0, 180)">
+          <text x="0" y="50" class="serif" font-size="56" fill="#756773">02</text>
+          <text x="90" y="30" class="serif" font-size="28" fill="#FFFFFF">Trauma-Informed Personal Training</text>
+          <text x="90" y="65" class="sans" font-size="13" fill="#B3A9B2">Safe, empowering strength training that works right for you.</text>
+        </g>
+
+        <!-- 03 -->
+        <g transform="translate(0, 300)">
+          <text x="0" y="50" class="serif" font-size="56" fill="#756773">03</text>
+          <text x="90" y="30" class="serif" font-size="28" fill="#FFFFFF">Small Group Wellness Session</text>
+          <text x="90" y="65" class="sans" font-size="13" fill="#B3A9B2">Private movement and resilience workshops for team harmony.</text>
+        </g>
+
+        <rect x="90" y="410" width="200" height="44" rx="22" fill="#FFFFFF"/>
+        <text x="190" y="437" class="sans" font-size="12" font-weight="700" fill="#242023" text-anchor="middle">BOOK A CONSULTATION</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SUCCESS STORIES -->
+  <g transform="translate(0, 1950)">
+    <rect width="1200" height="650" fill="#1B171A"/>
+    <g transform="translate(600, 50)" text-anchor="middle">
+      <text x="0" y="0" class="sans" font-size="11" font-weight="800" fill="#9C8D9B" letter-spacing="2">SUCCESS</text>
+      <text x="0" y="45" class="serif" font-size="40" font-weight="400" fill="#FFFFFF">Success Stories.</text>
+      
+      <!-- Testimonials -->
+      <g transform="translate(-400, 90)" text-anchor="start">
+        <rect width="800" height="110" rx="16" fill="#2C262B"/>
+        <circle cx="50" cy="55" r="28" fill="#D6CEC8"/>
+        <text x="100" y="45" class="sans" font-size="13" fill="#F5F3F4">"One of my biggest challenges was mental fear. Molly helped me challenge</text>
+        <text x="100" y="68" class="sans" font-size="13" fill="#F5F3F4">my limits and do more than I ever thought possible." — Christine</text>
+      </g>
+
+      <g transform="translate(-400, 220)" text-anchor="start">
+        <rect width="800" height="110" rx="16" fill="#2C262B"/>
+        <circle cx="50" cy="55" r="28" fill="#B5A4B2"/>
+        <text x="100" y="45" class="sans" font-size="13" fill="#F5F3F4">"I feel truly confident in myself for the first time in my life.</text>
+        <text x="100" y="68" class="sans" font-size="13" fill="#F5F3F4">I am stronger than I've ever been at 30!" — Alicia</text>
+      </g>
+
+      <rect x="-70" y="360" width="140" height="40" rx="20" fill="#9C8D9B"/>
+      <text x="0" y="385" class="sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">CONTACT US</text>
+    </g>
+  </g>
+
+  <!-- STATS BAR -->
+  <g transform="translate(0, 2600)">
+    <rect width="1200" height="80" fill="#6B5E69"/>
+    <g class="sans" font-size="13" font-weight="700" fill="#FFFFFF" transform="translate(100, 46)">
+      <text x="50" y="0">🛍️ Improved Self-Confidence</text>
+      <text x="340" y="0">🪴 Reduced Stress</text>
+      <text x="590" y="0">💧 Greater Strength</text>
+      <text x="820" y="0">🔆 Growth Mindset</text>
+    </g>
+  </g>
+
+  <!-- GET IN TOUCH & FOOTER -->
+  <g transform="translate(0, 2680)">
+    <rect width="1200" height="920" fill="#F7F5F5"/>
+    <g transform="translate(100, 70)">
+      <text x="0" y="30" class="serif" font-size="38" font-weight="600" fill="#242023">Get In Touch!</text>
+      <text x="0" y="65" class="sans" font-size="13" fill="#665D65">Ready to transform your well-being? Send Molly a message.</text>
+
+      <!-- Form Box -->
+      <g transform="translate(480, 0)">
+        <rect width="520" height="40" rx="8" fill="#FFFFFF" stroke="#E2DCDA"/>
+        <text x="15" y="25" class="sans" font-size="12" fill="#9C8D9B">Name</text>
+        <rect y="55" width="520" height="40" rx="8" fill="#FFFFFF" stroke="#E2DCDA"/>
+        <text x="15" y="80" class="sans" font-size="12" fill="#9C8D9B">Email Address</text>
+        <rect y="110" width="520" height="80" rx="8" fill="#FFFFFF" stroke="#E2DCDA"/>
+        <text x="15" y="135" class="sans" font-size="12" fill="#9C8D9B">Message</text>
+        <rect y="205" width="180" height="40" rx="8" fill="#9C8D9B"/>
+        <text x="90" y="230" class="sans" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Send Message</text>
+      </g>
+    </g>
+
+    <!-- Dark Footer Arch -->
+    <g transform="translate(100, 480)">
+      <path d="M0 60 C0 0, 1000 0, 1000 60 L1000 300 L0 300 Z" fill="#423940"/>
+      <g transform="translate(500, 60)" text-anchor="middle">
+        <text x="0" y="30" class="serif" font-size="24" fill="#FFFFFF" letter-spacing="1">THE MONDAY COLLECTIVE</text>
+        <text x="0" y="60" class="sans" font-size="11" fill="#C4B9C2">A BALANCED MIND SET ON MONDAYS.</text>
+        <text x="0" y="180" class="sans" font-size="11" fill="#8C7D8A">© 2025 The Monday Collective. All rights reserved. Designed by Zoe Digital.</text>
+      </g>
+    </g>
+  </g>
+</svg>

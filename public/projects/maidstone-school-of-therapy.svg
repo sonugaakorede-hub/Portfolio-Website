@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 3600" width="1200" height="3600">
+  <defs>
+    <style>
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    </style>
+    <linearGradient id="heroDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272A"/>
+      <stop offset="100%" stop-color="#18181B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="3600" fill="#FFFFFF"/>
+
+  <!-- HERO SECTION -->
+  <rect width="1200" height="600" fill="url(#heroDark)"/>
+  
+  <!-- Header -->
+  <g transform="translate(70, 35)">
+    <text x="0" y="20" class="serif" font-size="18" font-weight="700" fill="#FFFFFF">Maidstone School of Therapy</text>
+    <g class="sans" font-size="12" font-weight="600" fill="#D4D4D8">
+      <text x="560" y="20">HOME</text>
+      <text x="630" y="20">ABOUT</text>
+      <text x="705" y="20">SERVICES</text>
+      <text x="790" y="20">TRAINING</text>
+    </g>
+    <rect x="930" y="0" width="130" height="34" rx="4" fill="#FFFFFF"/>
+    <text x="995" y="22" class="sans" font-size="11" font-weight="700" fill="#18181B" text-anchor="middle">APPLY NOW →</text>
+  </g>
+
+  <!-- Big Hero Title -->
+  <g transform="translate(600, 280)" text-anchor="middle">
+    <text x="0" y="40" class="serif" font-size="70" font-weight="700" fill="#FFFFFF">School of</text>
+    <text x="0" y="120" class="serif" font-size="70" font-weight="700" fill="#FFFFFF">Therapy</text>
+  </g>
+
+  <!-- SUBHERO BANNER -->
+  <g transform="translate(70, 660)">
+    <text x="530" y="40" class="serif" font-size="36" font-weight="700" fill="#18181B" text-anchor="middle">Transformative Training For</text>
+    <text x="530" y="85" class="serif" font-size="36" font-weight="700" fill="#18181B" text-anchor="middle">Compassionate Therapists.</text>
+    
+    <text x="530" y="130" class="sans" font-size="14" fill="#71717A" text-anchor="middle">
+      Welcome to Maidstone School of Therapy, a leading training provider dedicated to nurturing skilled
+    </text>
+    <text x="530" y="152" class="sans" font-size="14" fill="#71717A" text-anchor="middle">
+      and compassionate therapists. Accredited CPCAB counselling courses.
+    </text>
+
+    <rect x="445" y="180" width="170" height="40" rx="4" fill="#E4E4E7"/>
+    <text x="530" y="205" class="sans" font-size="11" font-weight="700" fill="#18181B" text-anchor="middle">EXPLORE OUR COURSES ⚙</text>
+  </g>
+
+  <!-- ACCREDITATIONS STRIP -->
+  <g transform="translate(70, 940)">
+    <rect width="1060" height="80" rx="8" fill="#F4F4F5"/>
+    <g class="sans" font-size="13" font-weight="800" fill="#52525B" transform="translate(80, 45)">
+      <text x="60" y="0">cpcab</text>
+      <text x="260" y="0">bacp · counselling</text>
+      <text x="540" y="0">NCPS Accredited</text>
+      <text x="780" y="0">UKCP Member</text>
+    </g>
+  </g>
+
+  <!-- ABOUT SECTION -->
+  <g transform="translate(70, 1080)">
+    <g transform="translate(0, 40)">
+      <text x="0" y="20" class="serif" font-size="34" font-weight="700" fill="#18181B">About Maidstone</text>
+      <text x="0" y="60" class="serif" font-size="34" font-weight="700" fill="#18181B">School Of Therapy</text>
+      
+      <text x="0" y="110" class="sans" font-size="14" fill="#52525B" width="480">
+        <tspan x="0" dy="0">Welcome to the only CPCAB and BACP-accredited psychotherapy</tspan>
+        <tspan x="0" dy="24">training provider in Maidstone. Founded by Amanda Drury,</tspan>
+        <tspan x="0" dy="24">our school offers exceptional, dynamic counselling education.</tspan>
+      </text>
+
+      <rect x="0" y="210" width="180" height="42" rx="4" fill="#18181B"/>
+      <text x="90" y="236" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">EXPLORE COURSES →</text>
+    </g>
+
+    <!-- Faculty image box -->
+    <g transform="translate(540, 20)">
+      <rect width="480" height="320" rx="12" fill="#E4E4E7"/>
+      <circle cx="240" cy="160" r="80" fill="#A1A1AA" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- COURSES SECTION -->
+  <g transform="translate(0, 1500)">
+    <rect width="1200" height="600" fill="#09090B"/>
+    <g transform="translate(70, 60)">
+      <text x="0" y="30" class="serif" font-size="34" font-weight="700" fill="#FFFFFF">Our CPCAB Recognised Courses</text>
+      
+      <g transform="translate(0, 80)">
+        <!-- Course 1 -->
+        <rect width="500" height="240" rx="8" fill="#18181B" stroke="#27272A"/>
+        <text x="30" y="45" class="sans" font-size="11" font-weight="800" fill="#A1A1AA">LEVEL 4</text>
+        <text x="30" y="85" class="serif" font-size="24" font-weight="700" fill="#FFFFFF">Therapeutic Counselling</text>
+        <text x="30" y="125" class="sans" font-size="13" fill="#A1A1AA">
+          Achieve professional competence as a qualified counsellor,
+          ready for supervised clinical practice.
+        </text>
+        <rect x="30" y="170" width="130" height="34" rx="4" fill="#27272A"/>
+        <text x="95" y="192" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEARN MORE ⚙</text>
+      </g>
+
+      <g transform="translate(540, 80)">
+        <!-- Course 2 -->
+        <rect width="500" height="240" rx="8" fill="#18181B" stroke="#27272A"/>
+        <text x="30" y="45" class="sans" font-size="11" font-weight="800" fill="#A1A1AA">LEVEL 5</text>
+        <text x="30" y="85" class="serif" font-size="24" font-weight="700" fill="#FFFFFF">Psychotherapeutic Counselling</text>
+        <text x="30" y="125" class="sans" font-size="13" fill="#A1A1AA">
+          Advance your clinical expertise with in-depth focus on
+          complex psychotherapeutic modalities.
+        </text>
+        <rect x="30" y="170" width="130" height="34" rx="4" fill="#27272A"/>
+        <text x="95" y="192" class="sans" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">LEARN MORE ⚙</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- TEAM & FOOTER -->
+  <g transform="translate(70, 2180)">
+    <text x="0" y="30" class="serif" font-size="32" font-weight="700" fill="#18181B">Our Expert Faculty Team</text>
+    
+    <g transform="translate(0, 60)">
+      <rect width="1060" height="160" rx="8" fill="#F4F4F5"/>
+      <circle cx="90" cy="80" r="50" fill="#D4D4D8"/>
+      <text x="170" y="65" class="serif" font-size="20" font-weight="700" fill="#18181B">Amanda Drury</text>
+      <text x="170" y="90" class="sans" font-size="12" font-weight="600" fill="#71717A">Founder &amp; Lead Psychotherapist</text>
+      <text x="170" y="120" class="sans" font-size="13" fill="#52525B">15+ years in clinical practice, accredited CPCAB course leader.</text>
+    </g>
+  </g>
+
+  <!-- FOOTER -->
+  <g transform="translate(0, 2500)">
+    <rect width="1200" height="400" fill="#09090B"/>
+    <g transform="translate(70, 60)" class="sans" font-size="12">
+      <text x="0" y="24" class="serif" font-size="18" font-weight="700" fill="#FFFFFF">Maidstone School of Therapy</text>
+      <text x="0" y="60" fill="#71717A">Masters House, College Road, Maidstone, ME15 6AX</text>
+      <text x="0" y="85" fill="#71717A">📞 07956155811 · ✉️ info@maidstoneschooloftherapy.co.uk</text>
+      <text x="530" y="200" fill="#52525B" text-anchor="middle">© 2025 Maidstone School Of Therapy &amp; Counselling. Designed by Zoe Digital.</text>
+    </g>
+  </g>
+</svg>
