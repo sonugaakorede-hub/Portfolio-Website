@@ -43,6 +43,18 @@ export interface ProcessStep {
   deliverables: string[];
 }
 
+export interface Testimonial {
+  id: string;
+  clientName: string;
+  clientRole: string;
+  company: string;
+  quote: string;
+  highlightMetric: string;
+  projectType: string;
+  rating: number;
+  location?: string;
+}
+
 export interface SkillCategory {
   category: string;
   skills: string[];

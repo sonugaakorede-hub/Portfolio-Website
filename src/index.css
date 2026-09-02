@@ -2,11 +2,24 @@
 
 @layer base {
   :root {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --upwork-green: #108A00;
+    --upwork-green-hover: #14A800;
+    --upwork-green-light: #EBF7EE;
   }
 
-  h1, h2, h3, .font-display {
-    font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+  body {
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #181818;
+  }
+
+  p, span, a, li, input, textarea, button, blockquote {
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Syne', 'Montserrat', sans-serif;
   }
 
   .font-mono {
@@ -14,42 +27,35 @@
   }
 }
 
-/* Custom subtle scrollbar */
+/* Upwork Clean Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0e0f12;
+  background: #f4f5f7;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: #cbd5e1;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: #108a00;
 }
 
-/* Smooth glass & border utilities */
-.studio-border {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+/* Upwork-style Card Utilities */
+.upwork-card {
+  background: #ffffff;
+  border: 1px solid #e4e7eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
 }
 
-.studio-border-hover:hover {
-  border-color: rgba(255, 255, 255, 0.18);
+.upwork-card:hover {
+  border-color: #108a00;
+  box-shadow: 0 10px 25px -5px rgba(16, 138, 0, 0.08);
 }
 
-.studio-card {
-  background: #14161a;
-  border: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.studio-card-subtle {
-  background: rgba(20, 22, 26, 0.6);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
 

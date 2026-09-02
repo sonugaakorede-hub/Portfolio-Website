@@ -1,7 +1,7 @@
-import { Project, ServiceItem, ProcessStep } from '../types';
+import { Project, ServiceItem, ProcessStep, Testimonial } from '../types';
 
 export const DESIGNER_INFO = {
-  name: 'Zoe Digital',
+  name: 'Zoe Digitals',
   role: 'Website Designer & SEO Specialist',
   email: 'sonugaakorede@gmail.com',
   whatsappUrl: 'https://wa.link/9pcs6h',
@@ -9,7 +9,7 @@ export const DESIGNER_INFO = {
   coreFocus: ['Website Design', 'SEO', 'Responsive Design', 'Ecommerce'],
   bioHeadline: 'Designing Digital Experiences With Purpose.',
   bioParagraphs: [
-    'I am a professional website designer and SEO specialist at Zoe Digital, dedicated to crafting clean, high-performing digital experiences for ambitious brands and forward-thinking businesses.',
+    'I am a professional website designer and SEO specialist at Zoe Digitals, dedicated to crafting clean, high-performing digital experiences for ambitious brands and forward-thinking businesses.',
     'By blending refined editorial aesthetics with rigorous technical SEO, mobile-first responsiveness, and conversion architecture, I build websites that command attention, build enduring credibility, and deliver tangible commercial outcomes.',
     'Rather than relying on generic templates, every project is strategically tailored to reflect your unique brand identity while ensuring lightning-fast performance, flawless usability, and search engine dominance.'
   ]
@@ -278,5 +278,63 @@ export const PROCESS_STEPS: ProcessStep[] = [
       'Speed & Core Web Vitals Optimization',
       'Domain Setup & Client Training Video'
     ]
+  }
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 't-1',
+    clientName: 'Dr. Elena Vance',
+    clientRole: 'Founder & Clinical Director',
+    company: 'Lumière Wellness & Aesthetics',
+    location: 'Zürich, Switzerland',
+    quote: 'Zoe Digitals completely revolutionized our digital presence. Our private clientele consistently remarks on how effortless and prestigious the booking experience feels. Within 90 days of launching the new site, our direct organic consultation bookings surged by 140%.',
+    highlightMetric: '+140% Organic Bookings',
+    projectType: 'Wix Studio & Luxury Healthcare SEO',
+    rating: 5
+  },
+  {
+    id: 't-2',
+    clientName: 'Marcus Thorne',
+    clientRole: 'Managing Director',
+    company: 'Kinto Living & Ceramics',
+    location: 'Copenhagen, Denmark',
+    quote: 'Migrating to our custom Shopify store engineered by Zoe Digitals was transformative. Not only is the editorial art direction breathtaking, but our mobile checkout completion climbed 68% in the first month. The page speed and checkout fluidness are simply world-class.',
+    highlightMetric: '+68% Checkout Conversion',
+    projectType: 'Shopify Store Architecture & Performance SEO',
+    rating: 5
+  },
+  {
+    id: 't-3',
+    clientName: 'David Harrington',
+    clientRole: 'Managing Partner',
+    company: 'Solstice Capital Group',
+    location: 'London, UK',
+    quote: 'The level of rigor, typographic discipline, and technical search structuring Zoe Digitals brought to the table exceeded expectations. They delivered ahead of schedule and created an institutional web presence that commands instant trust with institutional investors.',
+    highlightMetric: '#1 Google Organic Ranking',
+    projectType: 'Webflow Development & Financial SEO',
+    rating: 5
+  },
+  {
+    id: 't-4',
+    clientName: 'Claire Dupont',
+    clientRole: 'Principal Architect',
+    company: 'Atelier Noire Architecture',
+    location: 'Paris, France',
+    quote: 'We needed a digital monograph that matched the precision and quiet luxury of our architectural projects. Zoe Digitals struck the exact balance between minimalist refinement and commercial lead generation. Our site scores 99 on Google PageSpeed with instant loads.',
+    highlightMetric: '<0.6s Load Speed (99 PageSpeed)',
+    projectType: 'Minimalist Monograph & Technical SEO',
+    rating: 5
+  },
+  {
+    id: 't-5',
+    clientName: 'Sophia Lin',
+    clientRole: 'Head of Growth',
+    company: 'Aura Skincare Labs',
+    location: 'San Francisco, USA',
+    quote: 'Working with Zoe Digitals felt like working with a high-end agency at a fraction of the friction. The strategic keyword hierarchy and clean code structure skyrocketed our organic search traffic by over 200%. Simply exceptional execution.',
+    highlightMetric: '+210% Organic Traffic',
+    projectType: 'Ecommerce Store & Search Strategy',
+    rating: 5
   }
 ];

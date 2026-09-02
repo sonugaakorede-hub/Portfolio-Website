@@ -18,7 +18,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#0e0f12] text-[#e4e4e7] flex flex-col justify-between selection:bg-white selection:text-zinc-950 font-sans">
+    <div className="min-h-screen bg-[#FFFFFF] text-[#181818] flex flex-col justify-between selection:bg-[#108A00] selection:text-white font-sans">
       {/* Top Navigation */}
       <Navbar currentPage={currentPage} onNavigate={handleNavigate} />
 
